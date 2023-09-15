@@ -22,7 +22,7 @@ do
     valueInsurance = CalculateValueInsurance(incomeTotals);
     valueGasoline = CalculateValueGasoline(route, numberTrips, numberPassengers, package10, package1020, package20);
     ShowResults(incomePassengers, incomePackages, valueAssistant, valueGasoline, valueInsurance);
-    next = RequestBool("Do you want to calculate another factorial [y/n]? ");
+    next = RequestBool("Do you want to calculate another value [y/n]? ");
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("=========================================");
 
